@@ -1,0 +1,18 @@
+---
+title: "Meu Primeiro Relatório"
+output: github_document
+---
+
+```{r}
+library(tidyverse)
+```
+
+Este é meu primeiro plot
+
+```{r}
+mtcars %>%
+  ggplot(aes(mpg,cyl)) +
+  geom_line()
+```
+
+Ciao!
